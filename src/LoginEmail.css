@@ -1,0 +1,57 @@
+.loginemail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom right, #fd297b, #ff655b);
+  height: 100vh;
+}
+
+.loginemail__logo {
+  object-fit: contain;
+  height: 80px;
+}
+
+.loginemail__credentials {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  border: 1px solid rgba(255, 192, 203, 0.233);
+}
+
+.loginemail__credentials > form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.loginemail__credentialsEmail > input,
+.loginemail__credentialsPasswd > input {
+  height: 30px;
+  margin-bottom: 10px;
+  width: 260px;
+  border-radius: 12px;
+  border: none;
+  padding: 5px;
+}
+
+.loginemail__credentialsEmail > input:focus,
+.loginemail__credentialsPasswd > input:focus {
+  outline-color: #d60047f4;
+}
+
+.loginemail__credentialsEmail > p,
+.loginemail__credentialsPasswd > p {
+  color: rgb(255, 255, 255);
+  margin-bottom: 9px;
+}
+
+.loginemail__credentialsSubmit {
+  padding: 7px;
+  background-color: #dac8cf90;
+  border: none;
+  border-radius: 19px;
+  cursor: pointer;
+}

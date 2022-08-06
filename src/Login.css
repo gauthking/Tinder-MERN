@@ -1,0 +1,54 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom right, #fd297b, #ff655b);
+  height: 100vh;
+}
+
+.login__logo {
+  object-fit: contain;
+  height: 80px;
+}
+
+.login__google,
+.login__email {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  width: 220px;
+  border: 0.5px solid rgba(255, 238, 239, 0.249);
+}
+
+.login__email {
+  margin-top: 30px;
+}
+
+.login__email > button {
+  text-decoration: underline rgba(245, 222, 179, 0);
+}
+
+.login__google > button,
+.login__email > button {
+  background-color: transparent;
+  border: none;
+  margin-right: 19px;
+  font-size: 17px;
+  color: rgb(237, 221, 221);
+  transition: all 0.37s ease-in-out 0s;
+}
+
+.login__google:hover,
+.login__email:hover {
+  transform: scale(1.1);
+}
+
+.login__createacc {
+  color: whitesmoke;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 12px;
+}

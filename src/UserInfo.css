@@ -1,0 +1,33 @@
+.userinfo {
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 19px;
+  border: 1px solid rgba(128, 128, 128, 0.438);
+}
+
+.userinfo > form {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.userinfo > form > div > p {
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.userinfo__name,
+.userinfo__age,
+.userinfo__gender,
+.userinfo__email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  margin-top: 14px;
+}

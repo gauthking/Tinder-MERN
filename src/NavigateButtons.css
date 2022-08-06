@@ -1,0 +1,30 @@
+.navigatebuttons {
+  position: fixed;
+  bottom: 7vh;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background: linear-gradient(#e66464a4, #d61672af);
+  padding: 6px;
+}
+
+.navigatebuttons .MuiIconButton-root {
+  background-color: rgb(217, 177, 59);
+  padding: 10px;
+}
+
+.navigatButtons__close {
+  color: rgb(13, 120, 186) !important;
+}
+
+.navigatButtons__star {
+  color: rgb(48, 186, 13) !important;
+}
+
+.navigatButtons__right {
+  color: rgb(219, 28, 28) !important;
+}
+
+.navigatButtons__lightning {
+  color: rgb(195, 93, 25) !important;
+}

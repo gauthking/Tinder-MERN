@@ -1,0 +1,111 @@
+.createacc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom right, #fd297b, #ff655b);
+  height: 100vh;
+}
+
+.createacc__logo {
+  object-fit: contain;
+  height: 80px;
+}
+
+.createacc__register {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  border: 1px solid rgba(255, 192, 203, 0.233);
+}
+
+.createacc__register > form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.createacc__register > form > div > p {
+  color: white;
+  margin-bottom: 4px;
+}
+.createacc__register > form > div > div > p {
+  color: white;
+  margin-bottom: 4px;
+}
+
+.createacc__registerAge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.createacc__registerName > input {
+  height: 30px;
+  margin-bottom: 10px;
+  /* background-color: rgba(128, 41, 41, 0.247); */
+  border-radius: 12px;
+  border: none;
+  padding: 5px;
+  width: 96%;
+}
+
+.createacc__registerAge > div > input {
+  border-radius: 12px;
+  border: none;
+  padding: 5px;
+  height: 30px;
+}
+
+.createacc__registerGender > select {
+  padding: 5px;
+  background-color: aliceblue;
+  height: 40px;
+  border-radius: 12px;
+  width: fit-content;
+}
+
+.createacc__registerGender {
+  display: flex;
+  flex-direction: column;
+}
+
+.createacc__registerAge > div {
+  display: flex;
+  flex-direction: column;
+  flex: 0.35;
+}
+
+.createacc__registerGender {
+  flex: 0.65;
+}
+
+.createacc__registerEmail > input,
+.createacc__registerPasswd > input {
+  height: 30px;
+  margin-bottom: 10px;
+  /* background-color: rgba(128, 41, 41, 0.247); */
+  width: 96%;
+  border-radius: 12px;
+  border: none;
+  padding: 5px;
+}
+
+.createacc__registerSubmit {
+  padding: 7px;
+  background-color: #dac8cf90;
+  border: none;
+  border-radius: 19px;
+  cursor: pointer;
+}
+
+.createacc__registerName > input:focus,
+.createacc__registerEmail > input:focus,
+.createacc__registerGender > select:focus,
+.createacc__registerPasswd > input:focus,
+.createacc__registerAge > div > input:focus {
+  outline-color: #d60047f4;
+}

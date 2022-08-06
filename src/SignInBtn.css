@@ -1,0 +1,17 @@
+.signinbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 13px;
+}
+
+.signinbtn__main {
+  padding: 17px;
+  background-color: #c9336c90;
+  border: none;
+  border-radius: 19px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(240, 255, 255, 0.623);
+}
